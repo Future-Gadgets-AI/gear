@@ -6,12 +6,12 @@ gear is a dark-factory content pipeline: canonical content specs and per-medium 
 
 ## P2 Exit Criteria
 
-- [ ] `plugin/contracts/` — canonical content rules (spec schema, voice contract, review rubric) — live
-- [ ] Per-medium renderer skills — live
-- [ ] `gear` plugin listed in cc-plugins (installable via url/https)
-- [ ] Site live, deploying automatically on merge to `main`
-- [ ] First post shipped end-to-end (issue → PR → blind review → human merge → published)
-- [ ] Series backlog seeded (draft issues queued for the next posts)
+- [x] `plugin/contracts/` — canonical content rules (spec schema, voice contract, review rubric) — live
+- [x] Per-medium renderer skills — live
+- [x] `gear` plugin listed in cc-plugins (installable via url/https)
+- [x] Site live, deploying automatically on merge to `main`
+- [x] First post shipped end-to-end (issue → PR → blind review → human merge → published)
+- [x] Series backlog seeded (draft issues queued for the next posts)
 
 ## Volatility
 
