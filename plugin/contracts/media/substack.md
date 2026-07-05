@@ -8,6 +8,6 @@ Inherits `content-spec.md` in full — see that file. Consumes: `canonical_url`.
 
 ## Rules
 
-- The full article, prefixed with the literal line `*Originally published at [canonical_url].*`, where `[canonical_url]` is the frontmatter's `canonical_url` value inserted verbatim.
+- The full article, prefixed with the literal line `*Originally published at <canonical_url>.*`, where `<canonical_url>` is the frontmatter's `canonical_url` value inserted verbatim (angle brackets are the placeholder marker, not output).
 - Single paste-ready file — no split parts, no manual reassembly.
 - No platform-specific styling — Substack's own editor formatting is applied at paste time, not baked into the source.

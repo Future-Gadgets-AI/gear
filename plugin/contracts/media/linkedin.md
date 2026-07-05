@@ -2,9 +2,9 @@
 
 Renders a post's canonical spec as a LinkedIn-native post — a derivation of the spec, never an independent rewrite (Constitution Principle 1).
 
-## Frontmatter
+## Inputs
 
-Inherits `content-spec.md` in full — see that file. Consumes: `tl_dr`, one pull-quote.
+Inherits `content-spec.md`'s frontmatter in full — see that file. Consumes: `tl_dr` and `canonical_url` (frontmatter) plus one pull-quote (a body element, `> **pull-quote:**`).
 
 ## Rules
 

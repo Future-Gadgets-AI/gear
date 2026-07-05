@@ -52,7 +52,7 @@ A practitioner building in public, speaking to engineers and eng-leaders. Author
 ## Do / Don't examples
 
 **1. Autonomous PR runs**
-- Don't: "In today's landscape, autonomous PR runs are a total game-changer — they revolutionize how teams ship code! Isn't it amazing what AI can do?"
+- Don't: "Isn't it amazing what AI can do these days? In today's landscape, autonomous PR runs are a total game-changer — they revolutionize how teams ship code!"
 - Do: "An autonomous PR run does the line work — branch, build, test, push — while a human still approves the merge. The speed gain is real; the approval gate doesn't move."
 
 **2. Review gates**
@@ -70,3 +70,7 @@ A practitioner building in public, speaking to engineers and eng-leaders. Author
 ## Voice is fixed, tone flexes per medium
 
 This voice contract is fixed across every rendering. What flexes is tone-of-delivery per medium — article carries the full evidence chain, linkedin compresses to a hook plus one pull-quote, substack repeats the article verbatim — never the sliders, anti-words, or mechanics above.
+
+---
+
+**Version** 1.0.0 | **Ratified** 2026-07-05 | **Last Amended** 2026-07-05

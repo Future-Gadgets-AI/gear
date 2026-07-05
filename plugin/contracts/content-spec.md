@@ -42,9 +42,13 @@ audience: engineers
 canonical_url: https://example.com/p/blind-review-outlasts-run
 tl_dr:
   - An autonomous PR run still needs a human merge gate.
+  - Blind review starts from a fresh clone, never the author's context.
+  - A claim without a source row does not survive review.
 ---
 ## TL;DR
 - An autonomous PR run still needs a human merge gate.
+- Blind review starts from a fresh clone, never the author's context.
+- A claim without a source row does not survive review.
 ## The gate, not the guardrail
 > **pull-quote:** A blind reviewer re-runs the test plan; it never inherits the author's assumptions.
 ## Claims & Sources

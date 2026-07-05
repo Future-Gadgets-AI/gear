@@ -21,9 +21,9 @@ body:
     id: key-claims
     attributes:
       label: Key claims with source URLs
-      description: One per line, format "claim — URL".
+      description: One per line, format "claim — URL (accessed YYYY-MM-DD)". These become the spec's Claims & Sources rows.
       placeholder: |
-        Blind review catches drift same-context review misses — https://example.com/study
+        Blind review catches drift same-context review misses — https://example.com/study (accessed 2026-07-01)
     validations:
       required: true
   - type: checkboxes
@@ -34,11 +34,11 @@ body:
         - label: article
         - label: linkedin
         - label: substack
-        - label: ptbr
+        - label: ptbr (optional translation tail of a chosen rendering — a translation, not a fourth medium; never blocks EN publication)
   - type: input
     id: series-slot
     attributes:
       label: Series slot
-      description: Optional — which series/slot does this belong to?
+      description: Optional — which series/slot does this belong to? Lands in the spec's `tags` as `series:<slot>`.
     validations:
       required: false
