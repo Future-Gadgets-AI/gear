@@ -2,7 +2,7 @@
 import { getCollection } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const posts = (await getCollection('posts')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
+const posts = (await getCollection('posts', ({ data }) => data.status !== 'draft')).sort((a, b) => b.data.date.valueOf() - a.data.date.valueOf());
 ---
 <Layout title="gear">
 <h1>gear</h1>
