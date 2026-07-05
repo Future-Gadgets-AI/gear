@@ -1,0 +1,44 @@
+name: Content Brief
+description: Propose a new gear post — angle, audience, and sourced claims.
+title: "[POST] "
+body:
+  - type: textarea
+    id: angle
+    attributes:
+      label: Angle
+      description: What's the post's core argument or hook?
+    validations:
+      required: true
+  - type: input
+    id: audience
+    attributes:
+      label: Audience
+      description: Who is this post for?
+      placeholder: e.g. engineers, eng-leaders
+    validations:
+      required: true
+  - type: textarea
+    id: key-claims
+    attributes:
+      label: Key claims with source URLs
+      description: One per line, format "claim — URL (accessed YYYY-MM-DD)". These become the spec's Claims & Sources rows.
+      placeholder: |
+        Blind review catches drift same-context review misses — https://example.com/study (accessed 2026-07-01)
+    validations:
+      required: true
+  - type: checkboxes
+    id: target-media
+    attributes:
+      label: Target media
+      options:
+        - label: article
+        - label: linkedin
+        - label: substack
+        - label: ptbr (optional translation tail of a chosen rendering — a translation, not a fourth medium; never blocks EN publication)
+  - type: input
+    id: series-slot
+    attributes:
+      label: Series slot
+      description: Optional — which series/slot does this belong to? Lands in the spec's `tags` as `series:<slot>`.
+    validations:
+      required: false
