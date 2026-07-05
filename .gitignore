@@ -1,0 +1,6 @@
+node_modules/
+dist/
+.DS_Store
+
+# implement skill — throwaway synthesized design-input (never commit)
+.claude/sdd/_synthesized/
