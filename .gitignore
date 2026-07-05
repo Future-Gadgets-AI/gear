@@ -4,3 +4,4 @@ dist/
 
 # implement skill — throwaway synthesized design-input (never commit)
 .claude/sdd/_synthesized/
+site/.astro/
