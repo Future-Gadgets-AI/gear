@@ -19,7 +19,7 @@ Derives a post's `article.md` from its canonical `spec.md` — a transform, neve
 4. Assemble the body as a transform pass, never a reorder, preserving content-spec.md's Body Order:
    a. Copy the spec's TL;DR section verbatim as the body's first element — no separate title heading before it; the site's page template renders `title` as the page heading on its own.
    b. Copy each remaining standalone section verbatim, transforming only the pull-quote marker lines in place: drop the blockquote marker and its label, keep the sentence, and wrap it in plain emphasis. Apply this same transform to every pull-quote in every section.
-   c. Replace the Claims & Sources table with a References section: one bullet per row, in the form `claim — source URL (accessed date)`, values copied verbatim — never invent a new citation.
+   c. Replace the Claims & Sources table with a References section: one bullet per row, in the form `claim — <source URL> (accessed date)` — the URL wrapped in markdown autolink brackets so it renders as a working link — values copied verbatim; never invent a new citation.
 5. Write `content/posts/<slug>/article.md`.
 
 ## Output
