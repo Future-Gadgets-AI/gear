@@ -2,7 +2,7 @@
 
 ## TL;DR
 - An AI agent encoded a governance rule and violated it in the same pull request; an independent AI reviewer caught the violation before merge.
-- The catch repeated on a second constitution weeks apart — a pattern, not an anecdote.
+- The catch repeated on a second constitution a day later — a pattern, not an anecdote.
 - The mechanism is fresh context — the reviewer starts in its own clone and re-runs the test plan instead of trusting the author.
 - Governance rules need a named enforcement surface; a MUST nobody checks is a wish.
 
@@ -28,7 +28,7 @@ The fix landed the same day, in commit `d74eca4`, whose message states the repai
 
 If this had happened once, it would be an anecdote. It happened again on the very next constitution the factory produced.
 
-A sibling repository's constitution ratified a claims-carry-sources principle — every factual claim must cite a source at draft time. The blind reviewer of that pull request found that the constitution's own rationale carried an uncited statistic, violating the principle being ratified in the same document. The reviewer's comment noted it directly: this was "the second time in this factory's history that the review gate caught a constitution's author violating the constitution being authored." The statistic now cites its controlled study.
+A sibling repository's constitution ratified a claims-carry-sources principle — every factual claim must cite a source at draft time. The blind reviewer of that pull request found that the constitution's own rationale carried an uncited statistic, violating the principle being ratified in the same document. The author's on-record response, fixing it, logged what had just happened: "the second time in this factory's history that the review gate caught a constitution's author violating the constitution being authored." The statistic now cites its controlled study.
 
 Two constitutions, two authors, two same-document violations, two catches before merge. The review gate works on its own builders — which is the only kind of evidence a governance mechanism can offer about itself.
 
@@ -56,6 +56,6 @@ The uncomfortable version of the lesson: if your governance document has never c
 - Principle IV requires label + comment escalation; blind review must execute the test plan; human approval is enforced by branch protection — <https://github.com/Future-Gadgets-AI/agentic-dev/blob/main/CONSTITUTION.md> (accessed 2026-07-05)
 - The fix commit and its "no comment-only path remains" repair message (d74eca4) — <https://github.com/Future-Gadgets-AI/agentic-dev/commit/d74eca4> (accessed 2026-07-05)
 - Second catch: uncited statistic in a sibling constitution's own rationale, fixed by citing arXiv:2503.18293 — <https://github.com/Future-Gadgets-AI/gear/pull/11> (accessed 2026-07-05)
-- The reviewer's "second time in this factory's history" observation — <https://github.com/Future-Gadgets-AI/gear/pull/11> (accessed 2026-07-05)
+- The "second time in this factory's history" acknowledgment (author's on-record response to the blind review, same PR thread) — <https://github.com/Future-Gadgets-AI/gear/pull/11> (accessed 2026-07-05)
 - Substantive blind-review findings on all four of the repository's first autonomous PRs (#59, #60, #61, #62) — <https://github.com/Future-Gadgets-AI/agentic-dev/pulls?q=is%3Apr+is%3Amerged> (accessed 2026-07-05)
 - Blind reviews and fixes are visible end-to-end in public PR threads (worked example: PR #62, one keystroke to merged PR) — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/62> (accessed 2026-07-05)
