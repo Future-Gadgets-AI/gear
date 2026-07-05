@@ -12,7 +12,7 @@ Non-negotiable operating rules for gear's content pipeline — patterned on agen
 ### 2. Claims Carry Sources
 
 - MUST: Every factual claim MUST carry a citation at draft time — a claim without a source row is review-blocking.
-- Rationale: post-hoc fact-checking catches only ~38–54% of false claims in controlled studies; sourcing must happen before publish, not after.
+- Rationale: post-hoc fact-checking catches only ~38–54% of false claims in controlled studies ([Yao, Sun & Xue 2025, arXiv:2503.18293](https://arxiv.org/abs/2503.18293)); sourcing must happen before publish, not after.
 
 ### 3. Human Merge = Editorial Approval
 
