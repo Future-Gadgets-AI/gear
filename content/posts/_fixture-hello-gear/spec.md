@@ -21,7 +21,7 @@ A renderer only ever tested against real posts has never been tested against a s
 > **pull-quote:** A fixture that never publishes is still worth committing if every renderer depends on it.
 ## What this fixture proves
 Passing all four render skills against this one file is the whole verify gate for issue #4 — no real post is needed to prove the renderers work end to end.
-> **pull-quote:** The verify gate runs against a fixture, not a promise that it works on a real post.
+> **pull-quote:** One committed fixture exercises all 4 renderers — the verify gate runs against it, not against a promise.
 ## Claims & Sources
 | claim | source URL | date accessed |
 |---|---|---|
