@@ -53,4 +53,7 @@ The keystroke is the demo. The gates are the product.
 - The executing composer merged at 16:06 UTC the same day (lower bound for the run window) — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/61> (2026-07-05)
 - The in-flight-exclusion catch and the "double pickup" rationale, logged as an autonomous decision in the PR body — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/62> (2026-07-05)
 - The Definition-of-Ready rubric (verifiable outcome, bounded scope, convergence, reachable context, blast radius) — <https://github.com/Future-Gadgets-AI/agentic-dev/blob/main/plugin/contracts/dor-rubric.md> (2026-07-05)
-- Substantive blind-review findings on the repository's first four autonomous PRs — <https://github.com/Future-Gadgets-AI/agentic-dev/pulls?q=is%3Apr+is%3Amerged> (2026-07-05)
+- Substantive blind-review finding on PR #59 (REQUEST-CHANGES, fixed, re-review APPROVE) — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/59#issuecomment-4880375037> (2026-07-06)
+- Substantive blind-review finding on PR #60 — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/60#issuecomment-4880688106> (2026-07-06)
+- Substantive blind-review finding on PR #61 (the constitutional catch) — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/61#issuecomment-4880746119> (2026-07-06)
+- Substantive blind-review finding on PR #62 — <https://github.com/Future-Gadgets-AI/agentic-dev/pull/62#issuecomment-4883127128> (2026-07-06)
